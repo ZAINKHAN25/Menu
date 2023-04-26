@@ -36,11 +36,11 @@ body{
 .btn{
     height: 5vh;
     width: 5vw;
-    border-top: .5vh solid lightsalmon !important;
-    border-left: .2vw solid lightsalmon !important;
-    border-right: .2vw solid rgb(151, 151, 151) !important;
-    border-bottom: .5vh solid rgb(151, 151, 151) !important;
-    color: lightsalmon !important;
+    border-top: .5vh solid #c59d5f !important;
+    border-left: .2vw solid #c59d5f !important;
+    border-right: .2vw solid rgb(99, 99, 99) !important;
+    border-bottom: .5vh solid rgb(99, 99, 99) !important;
+    color: #c59d5f !important;
     transition: 1.5s ease-in-out;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -53,17 +53,17 @@ body{
 }
 
 .btn:hover{
-    background-color: lightsalmon !important;
+    background-color: #c59d5f !important;
     color:white !important;
-    border-right: 2px solid lightsalmon !important;
-    border-bottom: 2px solid lightsalmon !important;
+    border-right: 2px solid #c59d5f !important;
+    border-bottom: 2px solid #c59d5f !important;
 }
 
 
 .headingbottom{
     width: 8vw;
     height: 2vh;
-    border-top: 1vh solid lightsalmon;
+    border-top: .7vh solid #c59d5f;
 }
 
 .mainwork{
@@ -74,13 +74,13 @@ body{
 .mainwworks{
     display: flex;
     justify-content: center;
-    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
 }
 
 .image{
     width: 20vw;
     height: 20vh;
-    border: .7vw solid lightsalmon;
+    border: .5vw solid #c59d5f;
     border-radius: 5px;
     margin-right: 2vw;
 }
@@ -93,7 +93,7 @@ body{
 .heandings{
     display: flex;
     justify-content: space-between;
-    border-bottom: .3vh dotted lightsalmon;
+    border-bottom: .3vh dotted #c59d5f;
     margin-bottom: 2vh;
     padding-bottom: 1vh;
 }
@@ -105,7 +105,7 @@ body{
 }
 
 .price{
-    color: lightsalmon;
+    color: #c59d5f;
     font-weight: 500;
     letter-spacing: .3vw;
     font-size: 1.5vw;
