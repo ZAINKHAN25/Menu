@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.body{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.heading h1{
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: sans-serif;
+} 
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.btn{
+    height: 5vh;
+    width: 5vw;
+    border-top: .5vh solid lightsalmon !important;
+    border-left: .2vw solid lightsalmon !important;
+    border-right: .2vw solid rgb(151, 151, 151) !important;
+    border-bottom: .5vh solid rgb(151, 151, 151) !important;
+    color: lightsalmon !important;
+    transition: 1.5s ease-in-out;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 1.5vw !important;
+    padding-top: .4vh !important;
+    padding-bottom: 3vh;
+    padding-left: 1.5vw !important;
+    padding-right: 2vw !important;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: lightsalmon !important;
+    color:white !important;
+    border-right: 2px solid lightsalmon !important;
+    border-bottom: 2px solid lightsalmon !important;
+}
+
+
+.headingbottom{
+    width: 8vw;
+    height: 2vh;
+    border-top: 1vh solid lightsalmon;
+}
+
+.mainwork{
+    width: 50vw;
+    margin-top: 5vh;
+}
+
+.mainwworks{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vh;
+}
+
+.image{
+    width: 20vw;
+    height: 20vh;
+    border: .7vw solid lightsalmon;
+    border-radius: 5px;
+    margin-right: 2vw;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.heandings{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .3vh dotted lightsalmon;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+}
+
+.headingofwork{
+    font-weight: bold;
+    letter-spacing: .2vw;
+    font-size: 1.5vw;
+}
+
+.price{
+    color: lightsalmon;
+    font-weight: 500;
+    letter-spacing: .3vw;
+    font-size: 1.5vw;
+}
+
+.description{
+    color: rgb(111, 152, 169);
+    font-size: 1.5vw;
+}
