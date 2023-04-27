@@ -78,7 +78,7 @@ for (let i = 0; i < informations.length; i++) {
     justify-content: center;
     margin-bottom: 2vh;">
     
-    <img style="max-width: 200px;" src=${information.sourse} alt="" class="image">
+    <img style="max-width: 300px;" src=${information.sourse} alt="" class="image">
 
     <!-- ye sirf image k ilawa hai jo text hai-->
     <div class="text">

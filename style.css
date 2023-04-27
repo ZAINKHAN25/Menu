@@ -118,3 +118,21 @@ body{
 img:not(.image) {
     width: 300px;
 }
+
+  
+  /* styles for screens narrower than 600px */
+  @media screen and (max-width: 599px) {
+    .btn {
+      font-size: 1rem !important;
+    }
+    .description{
+        font-size: .7rem !important;
+    }
+    .headingofwork{
+        font-size: .7rem !important;
+    }
+    .heading h1{
+        font-size: 2rem !important;
+    } 
+  }
+  
