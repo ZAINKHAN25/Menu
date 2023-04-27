@@ -6,6 +6,7 @@
 
 body{
     overflow-x: hidden;
+    padding-bottom: 5vh;
 }
 
 .body{
@@ -121,6 +122,20 @@ img:not(.image) {
 
   
   /* styles for screens narrower than 600px */
+  @media screen and (max-width: 900px) {
+    .btn {
+      font-size: 1.2rem !important;
+    }
+    .description{
+        font-size: 1rem !important;
+    }
+    .headingofwork{
+        font-size: 1rem !important;
+    }
+    .heading h1{
+        font-size: 2rem !important;
+    } 
+  }
   @media screen and (max-width: 599px) {
     .btn {
       font-size: 1rem !important;
@@ -133,6 +148,21 @@ img:not(.image) {
     }
     .heading h1{
         font-size: 2rem !important;
+    } 
+  }
+  /* styles for screens narrower than 600px */
+  @media screen and (max-width: 499px) {
+    .btn {
+      font-size: 1.2rem !important;
+    }
+    .description{
+        font-size: 1rem !important;
+    }
+    .headingofwork{
+        font-size: 1rem !important;
+    }
+    .heading h1{
+        font-size: 2.5rem !important;
     } 
   }
   
