@@ -35,20 +35,19 @@ body{
 
 .btn{
     height: 5vh;
-    width: 5vw;
-    border-top: .5vh solid #c59d5f !important;
-    border-left: .2vw solid #c59d5f !important;
-    border-right: .2vw solid rgb(99, 99, 99) !important;
-    border-bottom: .5vh solid rgb(99, 99, 99) !important;
+    width: max-content;
+    border-top: 0.5vh solid #c59d5f !important;
+    border-left: 0.2vw solid #c59d5f !important;
+    border-right: 0.2vw solid rgb(99, 99, 99) !important;
+    border-bottom: 0.5vh solid rgb(99, 99, 99) !important;
     color: #c59d5f !important;
-    transition: 1.5s ease-in-out;
+    transition: .5s ease-in-out;
     margin-left: 1vw;
     margin-right: 1vw;
     font-size: 1.5vw !important;
-    padding-top: .4vh !important;
     padding-bottom: 3vh;
-    padding-left: 1.5vw !important;
     padding-right: 2vw !important;
+    padding: .3% 2%;
     text-align: center;
 }
 
@@ -114,4 +113,8 @@ body{
 .description{
     color: rgb(111, 152, 169);
     font-size: 1.5vw;
+}
+
+img:not(.image) {
+    width: 300px;
 }
